@@ -1,0 +1,26 @@
+/* Styles for the category heading in the list */
+.list-category {
+  font-size: 2.5em; /* Set the font size */
+  font-weight: bold; /* Set the font weight to bold */
+  color: hsl(0, 0%, 20%); /* Set the text color */
+  margin-bottom: 10px; /* Add bottom margin */
+  text-align: center; /* Center-align the text */
+  border: 3px solid; /* Add a solid border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  background-color: hsl(185, 100%, 50%); /* Set the background color */
+}
+
+/* Styles for the list items */
+.list-items {
+  font-size: 2em; /* Set the font size */
+  list-style: none; /* Remove default list styles */
+  color: hsl(0, 0%, 25%); /* Set the text color */
+  text-align: center; /* Center-align the text */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styles for list items on hover */
+.list-items li:hover {
+  color: hsl(0, 0%, 45%); /* Change text color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
